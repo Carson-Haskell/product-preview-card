@@ -15,7 +15,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-A dynamic product card component
+A responsive product card component
 
 ### The challenge
 
