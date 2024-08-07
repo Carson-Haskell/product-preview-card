@@ -46,7 +46,6 @@ p {
   width: 37.5rem;
   background-color: var(--neutral-white);
   display: flex;
-  min-height: 28.125rem;
   border-radius: 10px;
   overflow: hidden;
   margin: 1rem;
@@ -61,6 +60,7 @@ picture img {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  gap: 0.6rem;
 }
 
 .category {
@@ -68,19 +68,18 @@ picture img {
   letter-spacing: 5px;
   color: var(--netural-grayish-blue);
   font-size: 0.75rem;
-  padding-bottom: 0.25rem;
   margin-top: 0;
 }
 
 h1 {
   color: var(--neutral-blue);
   margin: 0;
+  line-height: 1;
 }
 
 .description {
   color: var(--netural-grayish-blue);
   line-height: 1.65;
-  padding: 0.5rem 0;
 }
 
 .price {
@@ -124,7 +123,6 @@ button {
 @media (max-width: 768px) {
   .card {
     flex-direction: column;
-    min-height: 38.188rem;
     width: 21.438rem;
   }
 
